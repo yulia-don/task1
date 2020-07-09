@@ -1,4 +1,7 @@
-let arrStock=[
+document.addEventListener("DOMContentLoaded", ready);
+ function ready()
+{
+  let arrStock=[
   {
     id: 0,
     name: "product1",
@@ -146,4 +149,5 @@ function addSum(price)
 {
   sum=sum+price;
   document.getElementById('sum').innerHTML='Сумма: '+sum+'';
+}
 }
