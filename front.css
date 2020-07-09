@@ -1,0 +1,39 @@
+.table1
+{
+  text-align: center;
+  float:left; 
+  margin-right: 40px;
+  border: 1px solid green;
+}
+.table2
+{
+  border-collapse: collapse;
+  border: 1px solid blue;
+  text-align: center;
+}
+th
+{
+  border-bottom: 1px solid blueviolet;
+  border-left: 1px solid blueviolet;
+}
+td
+{
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+caption
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  color: teal;
+}
+output
+{
+  color: chocolate;
+  position: fixed;
+  left: 500px;
+}
+input
+{
+  background-color: rosybrown;
+}
